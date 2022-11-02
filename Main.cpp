@@ -5,17 +5,10 @@ int main()
 {
 	string firstName = "Nathan";
 	string lastName = "Stevens";
-	int ssn = 1234567890;
+	int ssn = 9999999999; //QUESTION int isn't long enough to store all ssn's
 	
 	PersonType test{ firstName, lastName, ssn };
 
-	test.printName();
-
-	cout << endl;
-
-	test.printSSN();
-
-	cout << endl;
 	test.printPersonInfo();
 	cout << endl;
 
