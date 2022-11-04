@@ -5,7 +5,7 @@ int main()
 {
 	string firstName = "Nathan";
 	string lastName = "Stevens";
-	int ssn = 9999999999; //QUESTION int isn't long enough to store all ssn's
+	int ssn = 999999999;
 	
 	PersonType test{ firstName, lastName, ssn };
 

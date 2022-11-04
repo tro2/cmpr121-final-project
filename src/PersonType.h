@@ -33,7 +33,7 @@ public:
 	// Mutators
 	
 	/*
-	 * @brief Re?sets the first name, the last name, and the social security number of a person to the new values passed
+	 * @brief Re-sets the first name, the last name, and the social security number of a person to the new values passed
 	 * 
 	 * @param firstName - first name
 	 * @param lastName - last name
@@ -77,7 +77,7 @@ public:
 
 	/*
 	 * @brief Prints the person’s ssn, first name, and last name in the following format:
-		###?##?#### firstName lastName
+		###-##-#### firstName lastName
 	 *
 	 * @return void
 	 */

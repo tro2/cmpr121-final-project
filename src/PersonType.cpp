@@ -59,10 +59,10 @@ void PersonType::printSSN() const
 {
 	string s = to_string(PersonType::ssn);
 
-	if (static_cast<int>(s.length()) == 10) // valid ssn
+	if (static_cast<int>(s.length()) == 9) // valid ssn
 	{
 		s.insert(3, "-");
-		s.insert(7, "-");
+		s.insert(6, "-");
 
 		cout << s;
 	}
