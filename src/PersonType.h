@@ -30,20 +30,6 @@ public:
 	PersonType(const string& firstName, const string& lastName, int ssn); //QUESTION store references? or ensure true encapsulation?
 
 
-	// Mutators
-	
-	/*
-	 * @brief Re-sets the first name, the last name, and the social security number of a person to the new values passed
-	 * 
-	 * @param firstName - first name
-	 * @param lastName - last name
-	 * @param ssn - social security number
-	 * 
-	 * @return void
-	 */
-	void setPersonInfo(const string& firstName, const string& lastName, int ssn);
-
-
 	// Accessors
 
 	/*
@@ -66,6 +52,23 @@ public:
 	 * @return int PersonType::ssn
 	 */
 	int getSSN() const;
+
+
+	// Mutators
+	
+	/*
+	 * @brief Re-sets the first name, the last name, and the social security number of a person to the new values passed
+	 * 
+	 * @param firstName - first name
+	 * @param lastName - last name
+	 * @param ssn - social security number
+	 * 
+	 * @return void
+	 */
+	void setPersonInfo(const string& firstName, const string& lastName, int ssn);
+
+
+	// Methods
 
 	/*
 	 * @brief Prints the person’s last and first name in the following format:

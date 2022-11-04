@@ -7,7 +7,7 @@ int main()
 	string lastName = "Stevens";
 	int ssn = 999999999;
 	
-	PersonType test{ firstName, lastName, ssn };
+	PersonType test(firstName, lastName, ssn);
 
 	test.printPersonInfo();
 	cout << endl;

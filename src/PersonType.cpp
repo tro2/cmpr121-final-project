@@ -5,24 +5,14 @@
 
 PersonType::PersonType()
 {
-	PersonType::ssn = 0;
+	this->ssn = 0;
 }
 
 PersonType::PersonType(const string& firstName, const string& lastName, int ssn)
 {
-	PersonType::firstName = firstName;
-	PersonType::lastName = lastName;
-	PersonType::ssn = ssn;
-}
-
-
-// Mutators
-
-void PersonType::setPersonInfo(const string& firstName, const string& lastName, int ssn)
-{
-	PersonType::firstName = firstName;
-	PersonType::lastName = lastName;
-	PersonType::ssn = ssn;
+	this->firstName = firstName;
+	this->lastName = lastName;
+	this->ssn = ssn;
 }
 
 
@@ -42,6 +32,19 @@ int PersonType::getSSN() const
 {
 	return PersonType::ssn;
 }
+
+
+// Mutators
+
+void PersonType::setPersonInfo(const string& firstName, const string& lastName, int ssn)
+{
+	this->firstName = firstName;
+	this->lastName = lastName;
+	this->ssn = ssn;
+}
+
+
+// Methods
 
 void PersonType::printName() const
 {
