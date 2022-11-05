@@ -8,7 +8,7 @@ PersonType::PersonType()
 	this->ssn = 0;
 }
 
-PersonType::PersonType(const string& firstName, const string& lastName, int ssn)
+PersonType::PersonType(const std::string& firstName, const std::string& lastName, int ssn)
 {
 	this->firstName = firstName;
 	this->lastName = lastName;
@@ -18,12 +18,12 @@ PersonType::PersonType(const string& firstName, const string& lastName, int ssn)
 
 // Accessors
 
-const string& PersonType::getFirstName() const //QUESTION return string or string&?
+const std::string& PersonType::getFirstName() const
 {
 	return PersonType::firstName;
 }
 
-const string& PersonType::getLastName() const
+const std::string& PersonType::getLastName() const
 {
 	return PersonType::lastName;
 }
@@ -36,7 +36,7 @@ int PersonType::getSSN() const
 
 // Mutators
 
-void PersonType::setPersonInfo(const string& firstName, const string& lastName, int ssn)
+void PersonType::setPersonInfo(const std::string& firstName, const std::string& lastName, int ssn)
 {
 	this->firstName = firstName;
 	this->lastName = lastName;
@@ -48,26 +48,26 @@ void PersonType::setPersonInfo(const string& firstName, const string& lastName, 
 
 void PersonType::printName() const
 {
-	cout << PersonType::firstName << " " << PersonType::lastName;
+	std::cout << PersonType::firstName << " " << PersonType::lastName;
 }
 
 void PersonType::printPersonInfo() const
 {
 	PersonType::printSSN();
-	cout << " ";
+	std::cout << " ";
 	PersonType::printName();
 }
 
 void PersonType::printSSN() const
 {
-	string s = to_string(PersonType::ssn);
+	std::string s = to_string(PersonType::ssn);
 
 	if (static_cast<int>(s.length()) == 9) // valid ssn
 	{
 		s.insert(3, "-");
 		s.insert(6, "-");
 
-		cout << s;
+		std::cout << s;
 	}
 
 	//TODO determine what to do if ssn not valid, throw error?

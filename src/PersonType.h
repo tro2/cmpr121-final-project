@@ -2,13 +2,12 @@
 #define PERSONTYPE_H
 
 #include <string>
-using namespace std;
 
 class PersonType
 {
 private:
-	string firstName; // first name
-	string lastName; // last name
+	std::string firstName; // first name
+	std::string lastName; // last name
 	int ssn; // social security number
 
 public:
@@ -27,7 +26,7 @@ public:
 	 * @param lastName - last name
 	 * @param ssn - social security number
 	 */
-	PersonType(const string& firstName, const string& lastName, int ssn); //QUESTION store references? or ensure true encapsulation?
+	PersonType(const std::string& firstName, const std::string& lastName, int ssn);
 
 
 	// Accessors
@@ -37,14 +36,14 @@ public:
 	 *
 	 * @return const reference to firstName
 	 */
-	const string& getFirstName() const;
+	const std::string& getFirstName() const;
 
 	/*
 	 * @brief Accesses PersonType::lastName
 	 *
 	 * @return const reference to lastName
 	 */
-	const string& getLastName() const;
+	const std::string& getLastName() const;
 
 	/*
 	 * @brief Accesses PersonType::ssn
@@ -65,7 +64,7 @@ public:
 	 * 
 	 * @return void
 	 */
-	void setPersonInfo(const string& firstName, const string& lastName, int ssn);
+	void setPersonInfo(const std::string& firstName, const std::string& lastName, int ssn);
 
 
 	// Methods
