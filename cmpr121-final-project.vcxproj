@@ -25,6 +25,9 @@
   <ItemGroup>
     <ClInclude Include="src\PersonType.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="final-project.cd" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
