@@ -14,12 +14,12 @@ public:
 
 	// Constructors
 
-	/*
+	/** 
 	 * @brief Initializes a PersonType object and sets ssn to 0, firstName and lastName are automatically initialized to empty strings
 	 */
 	PersonType();
 
-	/*
+	/**
 	 * @brief Initializes a PersonType object and sets the first name, the last name, and the social security number of a person to the values passed
 	 * 
 	 * @param firstName - first name
@@ -31,21 +31,22 @@ public:
 
 	// Accessors
 
-	/*
-	 * @brief Accesses PersonType::firstName
-	 *
-	 * @return const reference to firstName
-	 */
+	/// <summary>
+	/// Accesses firstName.
+	/// </summary>
+	/// <returns>
+	/// const reference to firstName
+	/// </returns>
 	const std::string& getFirstName() const;
 
-	/*
-	 * @brief Accesses PersonType::lastName
+	/** 
+	 * @ Accesses PersonType::lastName
 	 *
 	 * @return const reference to lastName
 	 */
 	const std::string& getLastName() const;
 
-	/*
+	/** 
 	 * @brief Accesses PersonType::ssn
 	 *
 	 * @return int PersonType::ssn
@@ -55,7 +56,7 @@ public:
 
 	// Mutators
 	
-	/*
+	/** 
 	 * @brief Re-sets the first name, the last name, and the social security number of a person to the new values passed
 	 * 
 	 * @param firstName - first name
@@ -69,7 +70,7 @@ public:
 
 	// Methods
 
-	/*
+	/** 
 	 * @brief Prints the person’s last and first name in the following format:
 		firstName, lastName
 	 * 
@@ -77,7 +78,7 @@ public:
 	 */
 	void printName() const;
 
-	/*
+	/** 
 	 * @brief Prints the person’s ssn, first name, and last name in the following format:
 		###-##-#### firstName lastName
 	 *
@@ -85,7 +86,7 @@ public:
 	 */
 	void printPersonInfo() const;
 
-	/*
+	/** 
 	 * @brief Prints the person's ssn in the following format:
 	 	###-###-#### or does nothing if the ssn is invalid
 	 * 

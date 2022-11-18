@@ -5,7 +5,7 @@ int main()
 {
 	std::string firstName = "Nathan";
 	std::string lastName = "Stevens";
-	int ssn = 999999999;
+	int ssn = 108338201;
 	
 	PersonType test(firstName, lastName, ssn);
 

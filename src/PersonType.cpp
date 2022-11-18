@@ -60,15 +60,10 @@ void PersonType::printPersonInfo() const
 
 void PersonType::printSSN() const
 {
-	std::string s = to_string(PersonType::ssn);
+	std::string s = std::to_string(ssn);
 
-	if (static_cast<int>(s.length()) == 9) // valid ssn
-	{
-		s.insert(3, "-");
-		s.insert(6, "-");
+	s.insert(3, "-");
+	s.insert(6, "-");
 
-		std::cout << s;
-	}
-
-	//TODO determine what to do if ssn not valid, throw error?
+	std::cout << s;
 }
