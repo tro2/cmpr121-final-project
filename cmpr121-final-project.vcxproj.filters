@@ -21,13 +21,19 @@
     <ClCompile Include="src\PersonType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\CandidateType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\PersonType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\CandidateType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="final-project.cd" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

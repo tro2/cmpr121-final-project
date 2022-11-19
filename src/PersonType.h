@@ -31,23 +31,22 @@ public:
 
 	// Accessors
 
-	/// <summary>
-	/// Accesses firstName.
-	/// </summary>
-	/// <returns>
-	/// const reference to firstName
-	/// </returns>
+	/**
+	 * @ Accesses firstName
+	 *
+	 * @return const reference to firstName
+	 */
 	const std::string& getFirstName() const;
 
 	/** 
-	 * @ Accesses PersonType::lastName
+	 * @ Accesses lastName
 	 *
 	 * @return const reference to lastName
 	 */
 	const std::string& getLastName() const;
 
 	/** 
-	 * @brief Accesses PersonType::ssn
+	 * @brief Accesses ssn
 	 *
 	 * @return int PersonType::ssn
 	 */
@@ -72,7 +71,7 @@ public:
 
 	/** 
 	 * @brief Prints the person’s last and first name in the following format:
-		firstName, lastName
+		lastName, firstName
 	 * 
 	 * @return void
 	 */

@@ -19,14 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CandidateType.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\PersonType.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\CandidateType.h" />
     <ClInclude Include="src\PersonType.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="final-project.cd" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -20,17 +20,17 @@ PersonType::PersonType(const std::string& firstName, const std::string& lastName
 
 const std::string& PersonType::getFirstName() const
 {
-	return PersonType::firstName;
+	return firstName;
 }
 
 const std::string& PersonType::getLastName() const
 {
-	return PersonType::lastName;
+	return lastName;
 }
 
 int PersonType::getSSN() const
 {
-	return PersonType::ssn;
+	return ssn;
 }
 
 
@@ -48,14 +48,13 @@ void PersonType::setPersonInfo(const std::string& firstName, const std::string& 
 
 void PersonType::printName() const
 {
-	std::cout << PersonType::firstName << " " << PersonType::lastName;
+	std::cout << lastName << ", " << firstName;
 }
 
 void PersonType::printPersonInfo() const
 {
-	PersonType::printSSN();
-	std::cout << " ";
-	PersonType::printName();
+	printSSN();
+	std::cout << " " << firstName << lastName;
 }
 
 void PersonType::printSSN() const
