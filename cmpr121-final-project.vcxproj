@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CandidateList.cpp" />
     <ClCompile Include="src\CandidateType.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\PersonType.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\CandidateList.h" />
     <ClInclude Include="src\CandidateType.h" />
     <ClInclude Include="src\PersonType.h" />
   </ItemGroup>

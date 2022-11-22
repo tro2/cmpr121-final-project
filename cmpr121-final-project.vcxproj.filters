@@ -24,12 +24,18 @@
     <ClCompile Include="src\CandidateType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\CandidateList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\PersonType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\CandidateType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CandidateList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
