@@ -54,7 +54,7 @@ void PersonType::printName() const
 void PersonType::printPersonInfo() const
 {
 	printSSN();
-	std::cout << " " << firstName << lastName;
+	std::cout << " " << firstName << " " << lastName;
 }
 
 void PersonType::printSSN() const

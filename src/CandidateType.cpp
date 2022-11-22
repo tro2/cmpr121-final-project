@@ -7,6 +7,7 @@
 CandidateType::CandidateType()
 {
 	totalVotes = 0;
+	votesPerCampus[NUM_OF_CAMPUSES] = { 0 };
 }
 
 
@@ -42,18 +43,19 @@ void CandidateType::printCandidateCampusVotes(int campusNumber) const
 {
 	printName();
 	std::cout << std::endl;
-	std::cout << "    =>  Campus " << campusNumber << " total votes: " << getVotesByCampus(campusNumber) << std::endl; //QUESTION follow exact spacing for output? `    =>  `
+	std::cout << "    =>  Campus " << campusNumber << " total votes: " << getVotesByCampus(campusNumber) << std::endl;
 }
 
 void CandidateType::printCandidateInfo() const
 {
 	printSSN();
-	std::cout << " - " << getLastName() << ", " << getFirstName();
+	std::cout << " - ";
+	printName();
+	std::cout << std::endl;
 }
 
 void CandidateType::printCandidateTotalVotes() const
 {
 	printName();
 	std::cout << std::endl;
-	std::cout << "    =>  Total Votes (all campuses): " << getTotalVotes() << std::endl; //QUESTION does it have to be 2 integers? ## means 01?
-}
+	std::cout << "    =>  Total Votes (all campuses): " << getTotalVotes() << std::endl;

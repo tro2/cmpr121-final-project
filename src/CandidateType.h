@@ -10,7 +10,7 @@ class CandidateType : public PersonType
 private:
 
 	int totalVotes; // total votes for the candidate
-	int votesPerCampus[NUM_OF_CAMPUSES]; // array of votes per campusd
+	int votesPerCampus[NUM_OF_CAMPUSES]; // array of votes per campus
 
 public:
 
