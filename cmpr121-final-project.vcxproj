@@ -27,10 +27,14 @@
   <ItemGroup>
     <ClInclude Include="src\CandidateList.h" />
     <ClInclude Include="src\CandidateType.h" />
+    <ClInclude Include="src\InputHandler.h" />
     <ClInclude Include="src\PersonType.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Candidate_data.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

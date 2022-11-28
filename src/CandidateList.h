@@ -43,7 +43,7 @@ public:
 
 	int getWinner() const;
 
-	const CandidateType& searchCandidate(int ssn) const;
+	bool searchCandidate(int ssn) const;
 
 
 	// Mutators
@@ -62,6 +62,8 @@ public:
 	void printCandidateName(int ssn) const;
 
 	void printCandidateTotalVotes(int ssn) const;
+
+	void printFinalResults() const; // function does not exist in spec, could be removed
 
 };
 

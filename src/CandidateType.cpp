@@ -7,7 +7,10 @@
 CandidateType::CandidateType()
 {
 	totalVotes = 0;
-	votesPerCampus[NUM_OF_CAMPUSES] = { 0 };
+	for (int i = 0; i < NUM_OF_CAMPUSES; ++i)
+	{
+		votesPerCampus[i] = 0;
+	}
 }
 
 
@@ -59,3 +62,4 @@ void CandidateType::printCandidateTotalVotes() const
 	printName();
 	std::cout << std::endl;
 	std::cout << "    =>  Total Votes (all campuses): " << getTotalVotes() << std::endl;
+}
