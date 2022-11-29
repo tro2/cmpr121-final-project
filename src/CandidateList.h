@@ -63,7 +63,7 @@ public:
 
 	void printCandidateTotalVotes(int ssn) const;
 
-	void printFinalResults() const; // function does not exist in spec, could be removed
+	void printFinalResults() const; //QUESTION function does not exist in spec, could be removed
 
 };
 

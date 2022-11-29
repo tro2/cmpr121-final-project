@@ -22,7 +22,7 @@ CandidateList::~CandidateList()
 
 // Accessors
 
-int CandidateList::getWinner() const //QUESTION what if 2 people with the same number of votes?
+int CandidateList::getWinner() const
 {
 	if (count == 0)
 	{

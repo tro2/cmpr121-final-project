@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CandidateList" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIAAIAoAAABAHAAAAIAAAACAAAAEAIAAAAAgA=</HashCode>
+      <FileName>src\CandidateList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CandidateType" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAABEIAIAEAAAAAAAAAAAAAAAAAIAAgAAIAAAA=</HashCode>
+      <FileName>src\CandidateType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersonType" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAECAABAAAAAIAAAAAAAAAAAAAEQgAIACFAAAAA=</HashCode>
+      <FileName>src\PersonType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

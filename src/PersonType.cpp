@@ -1,11 +1,14 @@
 #include "PersonType.h"
 #include <iostream>
+#include <string>
 
 // Constructors
 
 PersonType::PersonType()
 {
 	this->ssn = 0;
+	// firstName and lastName are strings, the default string constructor is called
+	// this inits those vars to empty strings
 }
 
 PersonType::PersonType(const std::string& firstName, const std::string& lastName, int ssn)
