@@ -207,7 +207,7 @@ void CandidateList::printCandidateTotalVotes(int ssn) const
 	std::cout << "    =>  Total Votes (all campuses): " << candidate.getTotalVotes() << std::endl;
 }
 
-void CandidateList::printFinalResults() const // function is not in spec
+void CandidateList::printFinalResults() const
 {
 	if (count == 0)
 	{

@@ -37,15 +37,8 @@ public:
 
 	void printName() const;
 
-
 	void printPersonInfo() const;
 
-	/** 
-	 * @brief Prints the person's ssn in the following format:
-	 	###-###-#### or does nothing if the ssn is invalid
-	 * 
-	 * @return void
-	 */
 	void printSSN() const;
 
 

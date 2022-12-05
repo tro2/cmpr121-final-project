@@ -31,11 +31,10 @@
     <ClInclude Include="src\PersonType.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
+    <Text Include="Candidate_data.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Candidate_data.txt" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
